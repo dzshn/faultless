@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "faultless"
+version = "0.1.0"
+description = "catch 'em segfaults!"
+authors = ["Sofia Lima <me@dzshn.xyz>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
