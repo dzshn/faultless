@@ -30,6 +30,19 @@ From source using [poetry](https://python-poetry.org):
 $ poetry install
 ```
 
+## Usage
+
+```py
+@faultless
+def dangerous_function():
+    ...
+
+# specifying method for passing return/exceptions
+@faultless("socket")
+def dangerous_function():
+    ...
+```
+
 ## wait what do you mean segfaults and python w-
 
 uhhhhhhh
